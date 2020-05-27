@@ -6,7 +6,8 @@ cache: npm
 install:
   - npm install
 
-script: -CI=false npm run build
+script:
+  - npm run build
 
 notifications:
   email: false
